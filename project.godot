@@ -23,6 +23,12 @@ window/stretch/aspect="expand"
 
 project/assembly_name="SeeWhatSticks"
 
+[file_customization]
+
+folder_colors={
+"res://src/debug/": "yellow"
+}
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
