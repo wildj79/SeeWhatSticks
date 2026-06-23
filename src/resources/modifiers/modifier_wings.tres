@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://datt86nixff7l"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_7o3vt"]
+
+[resource]
+script = ExtResource("1_7o3vt")
+bonus = 30.0
+target = 1
+name = "Wings"
+description = "The item grew wings."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"

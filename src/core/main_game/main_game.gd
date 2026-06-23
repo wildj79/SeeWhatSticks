@@ -1,6 +1,9 @@
 class_name MainGame
 extends Node
 
+@export var item_definitions: Array[ItemDefinition]
+@export var modifier_definintions: Array[ModifierDefinition]
+
 # World Roots
 @onready var level_root: Node2D = %LevelRoot
 @onready var entity_root: Node2D = %EntityRoot

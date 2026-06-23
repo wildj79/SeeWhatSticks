@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://dlqwrmetrkwhi"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_n5vts"]
+
+[resource]
+script = ExtResource("1_n5vts")
+bonus = 70.0
+name = "Grease"
+description = "Someone dropped the item in a big vat of grease."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://crbqb6p4vvw7s"]
+
+[ext_resource type="Script" uid="uid://kh102w5haeq8" path="res://src/gameplay/item/item.gd" id="1_od738"]
+
+[node name="Item" type="CharacterBody2D" unique_id=1857383424]
+script = ExtResource("1_od738")

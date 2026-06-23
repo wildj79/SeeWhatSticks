@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://qp8f4fkktnhw"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_ip1o6"]
+
+[resource]
+script = ExtResource("1_ip1o6")
+bonus = 30.0
+name = "Duct Tape"
+description = "The item is wrapped in a thick layer of double sided duct tape."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"

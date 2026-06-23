@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" format=3 uid="uid://bt4oyeuwbi16t"]
+
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="1_4cphf"]
+
+[resource]
+script = ExtResource("1_4cphf")
+name = "Marshmallow"
+adhesion_factor = 70.0
+weight = 5.0
+item_preview = "res://assets/art/items/marshmallow.png"
+description = "A tasty marshmallow."
+metadata/_custom_type_script = "uid://b6qcwsofxhgfv"

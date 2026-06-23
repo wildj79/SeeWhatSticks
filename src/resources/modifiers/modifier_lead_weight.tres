@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://15hspxw1d8r1"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_mp7x1"]
+
+[resource]
+script = ExtResource("1_mp7x1")
+bonus = -60.0
+target = 1
+name = "Lead Weight"
+description = "Someone bolted on a lead weight to the item."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"

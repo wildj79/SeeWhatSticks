@@ -10,7 +10,9 @@ config_version=5
 
 [application]
 
-config/name="SeeWhatSticks"
+config/name="See What Sticks"
+config/description="Inspired by the timeless scientific method of \"throwing stuff at the wall and seeing what sticks,\" See What Sticks challenges players to become experts in adhesive prediction."
+run/main_scene="uid://chguxxguof4wj"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 

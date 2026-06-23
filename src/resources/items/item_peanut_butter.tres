@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" format=3 uid="uid://cjwccbk3mmv1n"]
+
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="1_8otxe"]
+
+[resource]
+script = ExtResource("1_8otxe")
+name = "Peanut Butter"
+adhesion_factor = 85.0
+weight = 15.0
+item_preview = "res://assets/art/items/peanut_butter.png"
+description = "Some tasty peanut butter."
+metadata/_custom_type_script = "uid://b6qcwsofxhgfv"

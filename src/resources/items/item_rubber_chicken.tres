@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" format=3 uid="uid://cwqc3brrekcmi"]
+
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="1_ubwrg"]
+
+[resource]
+script = ExtResource("1_ubwrg")
+name = "Rubber Chicken"
+adhesion_factor = 30.0
+weight = 20.0
+item_preview = "res://assets/art/items/rubber_chicken.png"
+description = "A chicken. Made of rubber."
+metadata/_custom_type_script = "uid://b6qcwsofxhgfv"

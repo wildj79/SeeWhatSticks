@@ -1,10 +1,29 @@
 [gd_scene format=3 uid="uid://chguxxguof4wj"]
 
 [ext_resource type="Script" uid="uid://bk1q8qqo6p3pt" path="res://src/core/main_game/main_game.gd" id="1_3fed5"]
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="2_bisul"]
+[ext_resource type="Resource" uid="uid://dj2wuntukowpx" path="res://src/resources/items/item_banana.tres" id="3_72fxr"]
+[ext_resource type="Resource" uid="uid://cdrsmfbfw54ik" path="res://src/resources/items/item_bowling_ball.tres" id="4_nsc6n"]
+[ext_resource type="Resource" uid="uid://bt4oyeuwbi16t" path="res://src/resources/items/item_marshmallow.tres" id="5_8ncsa"]
+[ext_resource type="Resource" uid="uid://cjwccbk3mmv1n" path="res://src/resources/items/item_peanut_butter.tres" id="6_jsyyq"]
+[ext_resource type="Resource" uid="uid://d12x3tkyfg6m6" path="res://src/resources/items/item_rock.tres" id="7_ubril"]
+[ext_resource type="Resource" uid="uid://cwqc3brrekcmi" path="res://src/resources/items/item_rubber_chicken.tres" id="8_q5iew"]
+[ext_resource type="Resource" uid="uid://mf74my8rktho" path="res://src/resources/items/item_shoe.tres" id="9_pp22q"]
+[ext_resource type="Resource" uid="uid://eovgarmfufq5" path="res://src/resources/items/item_sticky_note.tres" id="10_wudiq"]
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="11_w2oio"]
+[ext_resource type="Resource" uid="uid://be7pnicbuwrwu" path="res://src/resources/modifiers/modifier_butter.tres" id="12_1uf3g"]
+[ext_resource type="Resource" uid="uid://qp8f4fkktnhw" path="res://src/resources/modifiers/modifier_duct_tape.tres" id="13_df4ir"]
+[ext_resource type="Resource" uid="uid://chls6cisxhiex" path="res://src/resources/modifiers/modifier_fly_paper.tres" id="14_v0vt4"]
+[ext_resource type="Resource" uid="uid://dlqwrmetrkwhi" path="res://src/resources/modifiers/modifier_grease.tres" id="15_tovl7"]
+[ext_resource type="Resource" uid="uid://dowpuinbdn7l5" path="res://src/resources/modifiers/modifier_helium_balloon.tres" id="16_bp5ju"]
+[ext_resource type="Resource" uid="uid://15hspxw1d8r1" path="res://src/resources/modifiers/modifier_lead_weight.tres" id="17_tivex"]
+[ext_resource type="Resource" uid="uid://datt86nixff7l" path="res://src/resources/modifiers/modifier_wings.tres" id="18_l3j3l"]
 
 [node name="MainGame" type="Node" unique_id=1669704337]
 process_mode = 3
 script = ExtResource("1_3fed5")
+item_definitions = Array[ExtResource("2_bisul")]([ExtResource("3_72fxr"), ExtResource("4_nsc6n"), ExtResource("5_8ncsa"), ExtResource("6_jsyyq"), ExtResource("7_ubril"), ExtResource("8_q5iew"), ExtResource("9_pp22q"), ExtResource("10_wudiq")])
+modifier_definintions = Array[ExtResource("11_w2oio")]([ExtResource("12_1uf3g"), ExtResource("13_df4ir"), ExtResource("14_v0vt4"), ExtResource("15_tovl7"), ExtResource("16_bp5ju"), ExtResource("17_tivex"), ExtResource("18_l3j3l")])
 
 [node name="Systems" type="Node" parent="." unique_id=1850030918]
 

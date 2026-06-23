@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" format=3 uid="uid://dj2wuntukowpx"]
+
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="1_tjkwd"]
+
+[resource]
+script = ExtResource("1_tjkwd")
+name = "Banana"
+adhesion_factor = 40.0
+weight = 15.0
+item_preview = "res://assets/art/items/banana.png"
+description = "A tasty banana."
+metadata/_custom_type_script = "uid://b6qcwsofxhgfv"

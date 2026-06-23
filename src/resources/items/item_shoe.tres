@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" format=3 uid="uid://mf74my8rktho"]
+
+[ext_resource type="Script" uid="uid://b6qcwsofxhgfv" path="res://src/resources/items/item_definition.gd" id="1_1jrtx"]
+
+[resource]
+script = ExtResource("1_1jrtx")
+name = "Shoe"
+adhesion_factor = 25.0
+weight = 40.0
+item_preview = "res://assets/art/items/shoe.png"
+description = "A plain old sneaker."
+metadata/_custom_type_script = "uid://b6qcwsofxhgfv"

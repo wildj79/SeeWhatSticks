@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://k6fxpsalhp3a"]
+
+[ext_resource type="Script" uid="uid://bnkdvag1f4cwr" path="res://src/gameplay/wall/wall.gd" id="1_rsxqo"]
+
+[node name="Wall" type="StaticBody2D" unique_id=1648656803]
+script = ExtResource("1_rsxqo")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1370412156]
+polygon = PackedVector2Array(-10, 60, -10, -60, 10, -60, 10, 60)
+uv = PackedVector2Array(-26, 3, -31, -70, 4, -68, 7, -6)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=649798290]
+polygon = PackedVector2Array(-10, 60, -10, -60, 10, -60, 10, 60)

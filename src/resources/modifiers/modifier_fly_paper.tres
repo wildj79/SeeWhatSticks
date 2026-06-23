@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://chls6cisxhiex"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_h5k7q"]
+
+[resource]
+script = ExtResource("1_h5k7q")
+bonus = 50.0
+name = "Fly Paper"
+description = "The item has been subjected fly papers adhesive properties."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ModifierDefinition" format=3 uid="uid://dowpuinbdn7l5"]
+
+[ext_resource type="Script" uid="uid://dl0iyi8ilkn1n" path="res://src/resources/modifiers/modifier_definition.gd" id="1_n0fjx"]
+
+[resource]
+script = ExtResource("1_n0fjx")
+bonus = 40.0
+target = 1
+name = "Helium Balloon"
+description = "Someone tied a big ol' helium balloon to the item."
+metadata/_custom_type_script = "uid://dl0iyi8ilkn1n"
