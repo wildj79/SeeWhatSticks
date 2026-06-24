@@ -18,12 +18,16 @@
 [ext_resource type="Resource" uid="uid://dowpuinbdn7l5" path="res://src/resources/modifiers/modifier_helium_balloon.tres" id="16_bp5ju"]
 [ext_resource type="Resource" uid="uid://15hspxw1d8r1" path="res://src/resources/modifiers/modifier_lead_weight.tres" id="17_tivex"]
 [ext_resource type="Resource" uid="uid://datt86nixff7l" path="res://src/resources/modifiers/modifier_wings.tres" id="18_l3j3l"]
+[ext_resource type="PackedScene" uid="uid://k6fxpsalhp3a" path="res://src/gameplay/wall/wall.tscn" id="19_72fxr"]
+[ext_resource type="PackedScene" uid="uid://crbqb6p4vvw7s" path="res://src/gameplay/item/item.tscn" id="20_nsc6n"]
 
 [node name="MainGame" type="Node" unique_id=1669704337]
 process_mode = 3
 script = ExtResource("1_3fed5")
 item_definitions = Array[ExtResource("2_bisul")]([ExtResource("3_72fxr"), ExtResource("4_nsc6n"), ExtResource("5_8ncsa"), ExtResource("6_jsyyq"), ExtResource("7_ubril"), ExtResource("8_q5iew"), ExtResource("9_pp22q"), ExtResource("10_wudiq")])
 modifier_definintions = Array[ExtResource("11_w2oio")]([ExtResource("12_1uf3g"), ExtResource("13_df4ir"), ExtResource("14_v0vt4"), ExtResource("15_tovl7"), ExtResource("16_bp5ju"), ExtResource("17_tivex"), ExtResource("18_l3j3l")])
+wall_scene = ExtResource("19_72fxr")
+item_scene = ExtResource("20_nsc6n")
 
 [node name="Systems" type="Node" parent="." unique_id=1850030918]
 

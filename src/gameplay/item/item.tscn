@@ -2,5 +2,14 @@
 
 [ext_resource type="Script" uid="uid://kh102w5haeq8" path="res://src/gameplay/item/item.gd" id="1_od738"]
 
-[node name="Item" type="CharacterBody2D" unique_id=1857383424]
+[node name="Item" type="Area2D" unique_id=1575578885]
 script = ExtResource("1_od738")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1428324138]
+polygon = PackedVector2Array(10, 10, -10, 10, 0, -10)
+uv = PackedVector2Array(-2, 11, -48, 9, -15, -32)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1140907496]
+polygon = PackedVector2Array(10, 10, -10, 10, 0, -10)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

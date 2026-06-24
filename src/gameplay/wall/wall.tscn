@@ -6,8 +6,8 @@
 script = ExtResource("1_rsxqo")
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1370412156]
-polygon = PackedVector2Array(-10, 60, -10, -60, 10, -60, 10, 60)
+polygon = PackedVector2Array(-10, 100, -10, -100, 10, -100, 10, 100)
 uv = PackedVector2Array(-26, 3, -31, -70, 4, -68, 7, -6)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=649798290]
-polygon = PackedVector2Array(-10, 60, -10, -60, 10, -60, 10, 60)
+polygon = PackedVector2Array(-10, 100, -10, -100, 10, -100, 10, 100)
